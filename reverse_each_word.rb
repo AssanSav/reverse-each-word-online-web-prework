@@ -10,6 +10,6 @@ end
 def reverse_each_word(str)
   str = str.split(" ")
   str.collect do |word.reverse|
-  word.reverse == word.join(" ")
+  word.reverse += 1 
 end
 end
