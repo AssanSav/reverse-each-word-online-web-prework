@@ -1,4 +1,4 @@
-def reverse_each_word(sentence)
+def reverse_each_word(sentence1)
   nuarray = []
   reverse_each_word do |word|
     nuarray << word
