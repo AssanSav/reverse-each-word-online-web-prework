@@ -7,3 +7,8 @@ def reverse_each_word(string)
   return nuarray.join(" ")
 end
 
+def reverse_each_word(str)
+  str = str.split(" ")
+  str.collect do {|word| word.reverse, word.join(" ")}
+end
+end
