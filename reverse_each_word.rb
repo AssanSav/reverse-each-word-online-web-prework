@@ -9,7 +9,7 @@ end
 
 def reverse_each_word(str)
   str = str.split(" ")
-  str.collect do |word.reverse|
-  word.reverse += 1 
+  str.collect do |word|
+    word += 1
 end
 end
